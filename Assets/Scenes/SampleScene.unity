@@ -349,7 +349,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!212 &539793498
 SpriteRenderer:
   serializedVersion: 2
@@ -437,6 +437,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   playerrigidbody: {fileID: 539793496}
+  animator: {fileID: 0}
+  sprite: {fileID: 539793498}
 --- !u!95 &539793501
 Animator:
   serializedVersion: 7
